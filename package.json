@@ -1,0 +1,42 @@
+{
+  "name": "grunt-keyword-extractor",
+  "description": "A grunt task for mikedelorenzo's keyword-extractor NPM package.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andrewbridge/grunt-keyword-extractor",
+  "author": {
+    "name": "Andrew Bridge",
+    "email": "andrew@andrewhbridge.co.uk",
+    "url": "http://www.andrewhbridge.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewbridge/grunt-keyword-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewbridge/grunt-keyword-extractor/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/andrewbridge/grunt-keyword-extractor/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin","keywords","extract","words"
+  ],
+  "dependencies": {
+    "keyword-extractor": "0.0.13"
+  }
+}
